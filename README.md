@@ -6,7 +6,9 @@ The page is served by GitHub Pages from this repository: https://jcordonud.githu
 
 ## How it updates
 
-Every Monday and Thursday at 06:44 (Europe/Madrid) a scheduled Claude task clones this repository, researches the watchlist, adds one edition to `data.js`, checks it and pushes. It follows `RUNBOOK.md`.
+Every Monday and Thursday at 06:44 (Europe/Madrid) a scheduled Claude task clones this repository, researches the watchlist, adds one edition to `data.js`, checks it and pushes to two branches: `main` (the working copy) and `gh-pages` (the one GitHub Pages serves). It follows `RUNBOOK.md`.
+
+If you edit a file on GitHub, edit it on `main`. The next scheduled run copies `main` to `gh-pages`; for a design change that should show at once, ask Claude to push it to both.
 
 The briefing is researched and written by Claude, an Anthropic model. It reports on Anthropic and on its competitors, so treat the magnitude scores as one editor's judgement and follow the links before relying on anything.
 

@@ -1,6 +1,6 @@
 # AI Watch runbook (GitHub version)
 
-This is the procedure for one scheduled edition of AI Watch. A scheduled cloud task runs it every Monday and Thursday at 06:44 (Europe/Madrid). The task works in a fresh copy of this repository, adds one edition to `data.js`, and pushes. GitHub Pages then serves the updated page. Nothing depends on any computer being switched on.
+This is the procedure for one scheduled edition of AI Watch. A scheduled cloud task runs it every Monday and Thursday at 06:44 (Europe/Madrid). The task works in a fresh copy of this repository, adds one edition to `data.js`, and pushes to the `main` and `gh-pages` branches. GitHub Pages serves the page from `gh-pages` at https://jcordonud.github.io/ai-watch/. Nothing depends on any computer being switched on.
 
 Juan Carlos can edit this file to change how the editions are made. The change applies from the next run.
 
@@ -26,7 +26,7 @@ Juan Carlos can edit this file to change how the editions are made. The change a
    - `dates_add`: `[{date, what, actor, url}]`, verifiable upcoming dates only
 5. Merge it: `node scripts/merge.js /tmp/new_edition.json`. The script adds the edition, updates the board rows and the dates, sets the dates of this and the next run, and prunes old material. Never edit `data.js` by retyping it.
 6. Validate it: `node scripts/validate.js <today's date>`. Fix whatever it reports by correcting the JSON and running the merge again (the merge replaces an edition of the same day). If it cannot pass, do not commit, and report why.
-7. Publish: `git add data.js`, commit with the message `Edition <date>: <headline>`, and `git push origin main`. Confirm with `git fetch origin && git status -sb` that the branch is not ahead of the remote.
+7. Publish: `git add data.js`, commit with the message `Edition <date>: <headline>`, and run `git push origin main main:gh-pages`. Both branches must receive the commit: `main` is the working copy and `gh-pages` is the branch GitHub Pages serves. Confirm with `git ls-remote origin` that `refs/heads/main` and `refs/heads/gh-pages` both show the new commit.
 8. Finish with a short note: the edition headline, the number of items, the three highest-magnitude items with their source links, which board rows changed, and any failure. If the push failed, say so in the first line and include the full edition as text so that nothing is lost.
 
 ## Watchlist
