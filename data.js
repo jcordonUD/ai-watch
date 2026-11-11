@@ -48,7 +48,7 @@ window.AIWATCH = {
       { mag: 2, label: "A note for the record" },
       { mag: 1, label: "Watch item or unconfirmed" }
     ],
-    links: { brief: "https://claude.ai/artifact/W3TWuTsEXYJPXpMRhvou8T", hub: "https://claude.ai/artifact/W3TWuTsEXYJPXpMRhvou8T" }
+    links: { brief: "https://jcordonud.github.io/ai-watch/", hub: "https://jcordonud.github.io/ai-watch/" }
   },
 
   groups: [

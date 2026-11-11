@@ -2,7 +2,7 @@
 
 A twice-weekly briefing on what changed at the main AI labs, in university AI policy and in Ethan Mollick's writing. One page, two tabs: the **Brief** (a four-minute read) and the **Board** (what changed and what stands, at a glance).
 
-The page is served by GitHub Pages from this repository.
+The page is served by GitHub Pages from this repository: https://jcordonud.github.io/ai-watch/
 
 ## How it updates
 
