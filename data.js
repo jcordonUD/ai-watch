@@ -38,8 +38,8 @@ window.AIWATCH = {
     "name": "AI Watch",
     "owner": "Juan Carlos",
     "cadence": "Mondays and Thursdays",
-    "updated": "2026-11-12",
-    "next": "2026-11-16",
+    "updated": "2026-11-16",
+    "next": "2026-11-19",
     "disclosure": "Researched and written by Claude, an Anthropic model, running on a schedule. It reports on Anthropic and on its competitors, so treat the magnitude scores as one editor's judgement and follow the links before you rely on anything.",
     "scale": [
       {
@@ -218,12 +218,12 @@ window.AIWATCH = {
     {
       "actor": "google",
       "section": "models",
-      "state": "Gemini 4 Carbon",
+      "state": "Gemini 4 Carbon (flagship), Gemini 4 Hydrogen (everyday)",
       "since": "2026-11-10",
       "open": "Closed",
-      "note": "Introductory API price ends 30 Nov",
+      "note": "Hydrogen replaces 3.8 Flash in the Gemini app and Search since 12 Nov. Carbon's introductory API price ends 30 Nov",
       "item": "261110-google-1",
-      "changed": "2026-11-11"
+      "changed": "2026-11-16"
     },
     {
       "actor": "deepseek",
@@ -408,6 +408,33 @@ window.AIWATCH = {
         "Do not rest any accusation on a detector or on a watermark. The English regulator finds detectors unreliable, and no public checker exists for the watermarks that labs are now adding.",
         "If AI drafts your feedback or marks, review each one before it reaches the student and say that AI was used.",
         "Add a few supervised, unaided questions on the problem types that AI solves easily. Stanford's review reports that students practise those less, and score lower on them when supervised."
+      ]
+    },
+    {
+      "id": "2026-11-16",
+      "number": 3,
+      "label": "Edition 3: the free tier moves up",
+      "headline": "Free Gemini moves up a generation, and a two-day outage shows what teaching depends on",
+      "lede": "Google released Gemini 4 Hydrogen, which replaces Gemini 3.8 Flash in the Gemini app and in Search, free accounts included. A Microsoft 365 outage that began on 12 November ran into a second day and reached the Claude and ChatGPT connectors, and a Harvard group published a guide, reported to draw on 5,000 studies, to when AI helps learning and when it hinders it. Searches found no new model from DeepSeek, Moonshot, Alibaba or Zhipu, and no new essay from Ethan Mollick. A caution on method: this edition was compiled from search results alone. No source page could be opened during the run, so every item rests on what titles and headlines state, none is marked primary, and the figures should be checked through the links before anyone relies on them.",
+      "takeaways": [
+        {
+          "title": "What students get for free has improved again",
+          "text": "Gemini 4 Hydrogen is reported to be the new everyday model in the Gemini app and in Google Search, for free accounts as well as paid ones. Judge your assignments against the free tier, because that is what every student has."
+        },
+        {
+          "title": "The evidence is being sorted by learning goal",
+          "text": "After Stanford's review of causal studies last week, a Harvard group is reported to have released a matrix that sets out when AI helps or hinders learning, by age and by goal. Both point the same way: the answer depends on what the task is meant to build."
+        },
+        {
+          "title": "Dependence on one provider is a risk to plan for",
+          "text": "A two-day Microsoft 365 outage disrupted email and Teams around the world and reached the AI assistants connected to it. Any course that runs on a single platform needs a stated fallback."
+        }
+      ],
+      "classroom": [
+        "Put one of your own problem sets through the free Gemini app this week. It is the level of help that a student has without paying, and reports say it changed on 12 November.",
+        "Before the next deadline that depends on a single platform, tell students what happens if it is down: a second way to submit, and a rule for extensions.",
+        "Search for your own name in Google Scholar and check for papers you did not write. Press reports describe fake journals that publish AI-written papers under real academics' names. Ask doctoral students to do the same.",
+        "When you write an AI rule for an activity, start from what the activity is meant to build. That is how the Harvard matrix is reported to be organised, and it fits a syllabus better than a blanket rule."
       ]
     }
   ],
@@ -1305,6 +1332,346 @@ window.AIWATCH = {
         }
       ],
       "edition": "2026-11-12",
+      "baseline": false
+    },
+    {
+      "id": "261112-google-1",
+      "date": "2026-11-12",
+      "actor": "google",
+      "kind": "release",
+      "mag": 4,
+      "title": "Gemini 4 Hydrogen replaces Gemini 3.8 Flash, and free users get it",
+      "summary": "Google released Gemini 4 Hydrogen around 12 November. Its own post presents it as a model for agentic workflows, and coverage says it is rolling out in the Gemini app and in Search, where it replaces Gemini 3.8 Flash, for free accounts as well as paid ones. Trade headlines add figures that were not checked here: an API price of 1.50 dollars per million input tokens and 7.50 per million output tokens, a 1M-token context, and a claim that it beats the larger Gemini 4 Argon while running 2.5 times faster.",
+      "why": "The model a student reaches without paying, inside Google Search and the Gemini app, has moved up a generation. Retest your assignments against the free tier, not against the paid flagship.",
+      "confidence": "reported",
+      "verify": "Google's announcement and the Google Cloud model page, for the date, the price and who gets access. Only the titles of these pages were seen in this run.",
+      "sources": [
+        {
+          "label": "Google: Introducing Gemini 4 Hydrogen",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+        },
+        {
+          "label": "Google Cloud: Gemini 4 Hydrogen model page",
+          "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/4-hydrogen"
+        },
+        {
+          "label": "gHacks, 13 Nov 2026",
+          "url": "https://www.ghacks.net/2026/11/13/google-releases-gemini-4-hydrogen-in-search-and-the-gemini-app-replacing-gemini-3-8-flash/"
+        },
+        {
+          "label": "Technology.org, 13 Nov 2026",
+          "url": "https://www.technology.org/2026/11/13/google-gemini-4-hydrogen-replaces-gemini-3-8-flash-pricing/"
+        },
+        {
+          "label": "Data Studios on price and context",
+          "url": "https://www.datastudios.org/post/google-gemini-4-hydrogen-launch-api-pricing-gemini-app-search"
+        },
+        {
+          "label": "Android Headlines on speed and Argon",
+          "url": "https://www.androidheadlines.com/2026/11/google-gemini-4-hydrogen-replaces-flash.html"
+        }
+      ],
+      "edition": "2026-11-16",
+      "baseline": false
+    },
+    {
+      "id": "261112-universities-1",
+      "date": "2026-11-12",
+      "actor": "universities",
+      "kind": "research",
+      "mag": 3,
+      "title": "Harvard group maps when AI helps or hinders learning, drawing on 5,000 studies",
+      "summary": "Inside Higher Ed reported on 12 November on a new AI Learning Matrix, and Education Week reports that Harvard drew on 5,000 studies to show how AI helps or hinders learning. A digest describes a free guide from a Harvard group to AI use by age and by learning goal, and the Boston Globe presented a Harvard guide for parents on 13 November. These appear to be one and the same release; that was not confirmed in this run.",
+      "why": "It arrives a week after Stanford's review of causal studies and has the shape a course policy needs: whether AI should be used depends on what the task is meant to build. Which Harvard unit wrote it, and how the studies were chosen, could not be checked in this run.",
+      "confidence": "reported",
+      "verify": "The matrix itself, linked from the Inside Higher Ed and Education Week articles: authors, method and how much of the evidence concerns universities.",
+      "sources": [
+        {
+          "label": "Inside Higher Ed, 12 Nov 2026",
+          "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/12/new-ai-learning-matrix-brings-nuance-wild"
+        },
+        {
+          "label": "Education Week, Nov 2026",
+          "url": "https://www.edweek.org/technology/harvard-taps-5-000-studies-to-show-how-ai-helps-or-hinders-learning/2026/11"
+        },
+        {
+          "label": "Boston Globe, 13 Nov 2026",
+          "url": "https://www.bostonglobe.com/2026/11/13/lifestyle/harvard-ai-survival-guide-parents/"
+        },
+        {
+          "label": "Superpower Daily summary",
+          "url": "https://superpowerdaily.com/posts/harvard-group-launches-free-guide-to-ai-use-by-age-and-learning-goal"
+        }
+      ],
+      "edition": "2026-11-16",
+      "baseline": false
+    },
+    {
+      "id": "261112-elsewhere-1",
+      "date": "2026-11-12",
+      "actor": "elsewhere",
+      "kind": "watch",
+      "mag": 3,
+      "title": "Two-day Microsoft 365 outage also reaches Claude and ChatGPT",
+      "summary": "A worldwide outage of Microsoft 365 began on 12 November and ran into a second day, disrupting Outlook and Teams for businesses and governments, according to Time, CNN and Gizmodo. A later report says it has been resolved. Trade press reports that the Microsoft connectors of ChatGPT and Claude stopped working during the outage, and Anthropic's status page lists login problems on Claude, which reports date to 13 November. One report says Anthropic attributed its login failure to Microsoft authentication; that link was not verified here.",
+      "why": "Email, the meeting platform and the AI assistant can fail together when they share one provider. A course that depends on a single service for submission or for an AI-based activity needs a stated fallback.",
+      "confidence": "reported",
+      "verify": "Microsoft's post-incident report for the cause and the duration, and the Anthropic status page for whether the Claude login fault was related.",
+      "sources": [
+        {
+          "label": "Time, 13 Nov 2026",
+          "url": "https://time.com/article/2026/11/13/microsoft-outage-worldwide-disruption-teams-outlook-emails/"
+        },
+        {
+          "label": "CNN live coverage, 12 Nov 2026",
+          "url": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk"
+        },
+        {
+          "label": "Gizmodo: outage enters second day",
+          "url": "https://gizmodo.com/microsoft-outage-knocks-out-email-for-businesses-police-and-hospitals-2000839696"
+        },
+        {
+          "label": "Yahoo News: outage resolved",
+          "url": "https://www.yahoo.com/news/microsoft-global-outage-resolved-192825560.html"
+        },
+        {
+          "label": "Inc. on ChatGPT and Claude",
+          "url": "https://www.inc.com/aaron-mok/the-microsoft-outage-also-hit-chatgpt-and-claude-but-theres-an-easy-workaround/91436228"
+        },
+        {
+          "label": "Anthropic status: login issues",
+          "url": "https://status.anthropic.com/incidents/m76bldqdnwbm"
+        },
+        {
+          "label": "Wikipedia: 2026 Microsoft outage",
+          "url": "https://en.wikipedia.org/wiki/2026_Microsoft_outage"
+        }
+      ],
+      "edition": "2026-11-16",
+      "baseline": false
+    },
+    {
+      "id": "261113-universities-1",
+      "date": "2026-11-13",
+      "actor": "universities",
+      "kind": "research",
+      "mag": 3,
+      "title": "AI-written papers are appearing under real academics' names",
+      "summary": "Times Higher Education and Inside Higher Ed, the latter on 13 November, report that low-quality AI-generated papers have been published under the names of prominent academics. NBC News describes fake academic journals that publish AI-generated papers under real professors' names. Whether the two reports cover the same cases, and how many cases there are, was not checked in this run.",
+      "why": "An author's name on a paper is weaker evidence than it was that the person wrote it. This matters for your own publication record, and for teaching students how to judge a source.",
+      "confidence": "reported",
+      "verify": "The Times Higher Education article for the cases and the scale.",
+      "sources": [
+        {
+          "label": "Times Higher Education",
+          "url": "https://www.timeshighereducation.com/news/ai-slop-papers-published-under-prominent-academics-names"
+        },
+        {
+          "label": "Inside Higher Ed, 13 Nov 2026",
+          "url": "https://www.insidehighered.com/news/faculty/books-publishing/2026/11/13/ai-slop-papers-published-under-prominent-academics-names"
+        },
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/tech/internet/fake-journals-using-real-professors-names-ai-generated-papers-rcna265479"
+        }
+      ],
+      "edition": "2026-11-16",
+      "baseline": false
+    },
+    {
+      "id": "261110-anthropic-5",
+      "date": "2026-11-10",
+      "actor": "anthropic",
+      "kind": "policy",
+      "mag": 2,
+      "title": "Anthropic signs a binding safety and privacy agreement with US teachers' unions",
+      "summary": "The American Federation of Teachers and its New York affiliate, the UFT, announced a binding agreement with Anthropic on AI safety and privacy in schools. Education Week describes it as protections for teachers who use Claude, and one summary says it includes deletion of data within 180 days. Microsoft signed a comparable agreement with the same unions in September. The text of the agreement was not read in this run.",
+      "why": "It concerns US schools, not universities, but it is a model of what staff can ask of an AI vendor: binding terms on data instead of a promise in a blog post. Useful when a campus licence is negotiated.",
+      "confidence": "reported",
+      "verify": "The AFT press release for the terms, and Education Week's earlier analysis of how firm the Microsoft version is.",
+      "sources": [
+        {
+          "label": "AFT press release",
+          "url": "https://www.aft.org/press-release/aft-uft-and-anthropic-sign-binding-ai-safety-and-privacy-agreement-schools"
+        },
+        {
+          "label": "Education Week, Nov 2026",
+          "url": "https://www.edweek.org/technology/anthropic-agrees-to-protections-for-teachers-who-use-claude/2026/11"
+        },
+        {
+          "label": "GovTech",
+          "url": "https://www.govtech.com/education/k-12/anthropic-joins-aft-and-ufts-binding-ai-safety-standard"
+        },
+        {
+          "label": "FourWeekMBA on the 180-day term",
+          "url": "https://fourweekmba.com/ai-anthropic-signs-teachers-union-pact-180-day-data-deletion/"
+        }
+      ],
+      "edition": "2026-11-16",
+      "baseline": false
+    },
+    {
+      "id": "261110-anthropic-6",
+      "date": "2026-11-10",
+      "actor": "anthropic",
+      "kind": "business",
+      "mag": 2,
+      "title": "Anthropic share offer: 70 to 78 dollars a share, trading expected on 19 November",
+      "summary": "CNBC, citing sources, reported on 10 November that Anthropic set a price range of 70 to 78 dollars per share for its stock market listing and aims to start trading on 19 November. Yahoo Finance puts the valuation at up to 1.4 trillion dollars, and market pages list the shares on Nasdaq under the ticker ANT. None of this was checked here against Anthropic's filing.",
+      "why": "An update to the roadshow item of 11 November. Once the shares trade, the costs of a frontier lab become public record. The editor of this page is an Anthropic model, so read the figures at the source.",
+      "confidence": "reported",
+      "verify": "Anthropic's amended S-1 on the US regulator's EDGAR site for the range and the date.",
+      "sources": [
+        {
+          "label": "CNBC, 10 Nov 2026",
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        },
+        {
+          "label": "Yahoo Finance on the valuation",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-sets-ipo-price-range-140602411.html"
+        },
+        {
+          "label": "TradingView listing page",
+          "url": "https://www.tradingview.com/symbols/NASDAQ-ANT/"
+        }
+      ],
+      "edition": "2026-11-16",
+      "baseline": false
+    },
+    {
+      "id": "261113-openai-1",
+      "date": "2026-11-13",
+      "actor": "openai",
+      "kind": "product",
+      "mag": 2,
+      "title": "ChatGPT Wallet lets OpenAI's agents pay for purchases",
+      "summary": "OpenAI launched ChatGPT Wallet on 13 November. It allows the company's AI agents, which it calls dots, to make purchases on a user's behalf, CNBC reports. Other coverage says that the agent does not see the card details and that each purchase needs the user's approval, with a biometric check. Countries, plans and limits were not checked in this run.",
+      "why": "Agents that can spend money go a step beyond agents that read and write. It is a concrete case for courses that touch consumer law, payments or the ethics of delegation, and it does not change coursework.",
+      "confidence": "reported",
+      "verify": "OpenAI's product announcement for availability and for how approval works.",
+      "sources": [
+        {
+          "label": "CNBC, 13 Nov 2026",
+          "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+        },
+        {
+          "label": "Android Authority",
+          "url": "https://www.androidauthority.com/chatgpt-wallet-3735154/"
+        },
+        {
+          "label": "WebProNews on the biometric check",
+          "url": "https://www.webpronews.com/openai-chatgpt-wallet-dots-agents-payments"
+        },
+        {
+          "label": "Benzinga on card details",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63273173/chatgpt-wallet-openais-dots"
+        }
+      ],
+      "edition": "2026-11-16",
+      "baseline": false
+    },
+    {
+      "id": "261111-google-2",
+      "date": "2026-11-11",
+      "actor": "google",
+      "kind": "research",
+      "mag": 2,
+      "title": "DeepMind releases Gemini Robotics 2.5 and AlphaGenome 2",
+      "summary": "Google DeepMind announced two models on 11 November, SiliconANGLE reports. Gemini Robotics 2.5 goes to partners together with an open robot-safety benchmark, ASIMOV-Jailbreak, and The Decoder reports a 96% score at sorting metal parts in an assembly pilot at Mercedes-Benz. AlphaGenome 2 predicts how DNA variants act in specific cell types; summaries cite twice the recall of its predecessor and API access for non-commercial research. These are the vendor's figures as relayed by the press.",
+      "why": "AlphaGenome 2 is the one to pass to colleagues in the life sciences, since access for non-commercial research is reported. The robotics model is for the record.",
+      "confidence": "reported",
+      "verify": "DeepMind's blog posts for both models and the access terms for AlphaGenome 2.",
+      "sources": [
+        {
+          "label": "Google DeepMind: Gemini Robotics 2.5",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+        },
+        {
+          "label": "SiliconANGLE, 11 Nov 2026",
+          "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/"
+        },
+        {
+          "label": "The Decoder on the Mercedes-Benz pilot",
+          "url": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/"
+        },
+        {
+          "label": "TechRepublic on AlphaGenome 2",
+          "url": "https://www.techrepublic.com/article/news-google-deepmind-alphagenome-2-genetic-variants/"
+        },
+        {
+          "label": "Data Studios on AlphaGenome 2 access",
+          "url": "https://www.datastudios.org/post/google-deepmind-alphagenome-2-cell-type-dna-model-api-non-commercial-research"
+        }
+      ],
+      "edition": "2026-11-16",
+      "baseline": false
+    },
+    {
+      "id": "261111-elsewhere-2",
+      "date": "2026-11-11",
+      "actor": "elsewhere",
+      "kind": "business",
+      "mag": 2,
+      "title": "Nvidia's Jensen Huang resigns; finance chief Colette Kress is interim chief executive",
+      "summary": "Nvidia announced a change of chief executive on 11 November: Jensen Huang resigned and the chief financial officer, Colette Kress, took over as interim chief executive, Fortune and the Washington Post report. Press coverage ties the departure to a personal scandal with national security implications, and CNN reports that Congress has summoned Huang to testify. On 13 November Nvidia's market value closed below 4 trillion dollars for the first time since July 2025, according to CNBC.",
+      "why": "Nvidia supplies most of the chips on which these models are trained and run. Nothing changes in the classroom; it is context for the cost and supply of computing, university clusters included.",
+      "confidence": "reported",
+      "verify": "Nvidia's press release and its filing with the US regulator for the facts of the transition. The reasons are as the press reports them and were not verified here.",
+      "sources": [
+        {
+          "label": "Nvidia: announcement of the transition",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        },
+        {
+          "label": "Fortune, 11 Nov 2026",
+          "url": "https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs/"
+        },
+        {
+          "label": "Washington Post on Colette Kress",
+          "url": "https://www.washingtonpost.com/business/2026/11/12/nvidia-jensen-huang-colette-kress/99dbffb6-deb1-11f1-912c-4fbb80d73f7f_story.html"
+        },
+        {
+          "label": "CNN live coverage",
+          "url": "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+        },
+        {
+          "label": "CNBC, 13 Nov 2026",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html"
+        }
+      ],
+      "edition": "2026-11-16",
+      "baseline": false
+    },
+    {
+      "id": "261113-elsewhere-1",
+      "date": "2026-11-13",
+      "actor": "elsewhere",
+      "kind": "policy",
+      "mag": 2,
+      "title": "Non-profits sue five AI companies to freeze frontier model development",
+      "summary": "A Reuters report carried by several outlets on 13 November says that OpenAI, Google and Anthropic face a lawsuit that seeks to halt the development of frontier AI. Other reports count four non-profit plaintiffs and five defendants, adding Meta and the AI unit of SpaceX, and say the claim cites the risk of cyberattacks and of catastrophic harm. Just Security has published the court documents. The court has made no decision.",
+      "why": "A case to follow in courses on law, ethics or technology policy. It has no practical effect unless a court grants an order, which would be unusual.",
+      "confidence": "reported",
+      "verify": "The complaint, published by Just Security, for the court, the plaintiffs and what exactly is asked.",
+      "sources": [
+        {
+          "label": "Reuters via Claims Journal, 13 Nov 2026",
+          "url": "https://www.claimsjournal.com/news/national/2026/11/13/341283.htm"
+        },
+        {
+          "label": "Just Security: the documents",
+          "url": "https://www.justsecurity.org/164494/nonprofits-lawsuit-freeze-frontier-ai-development/"
+        },
+        {
+          "label": "Business and Human Rights Centre",
+          "url": "https://www.business-humanrights.org/en/latest-news/usa-advocacy-groups-sue-ai-giants-to-halt-development-over-catastrophic-risks/"
+        },
+        {
+          "label": "MLQ on the five defendants",
+          "url": "https://mlq.ai/news/nonprofits-sue-openai-google-anthropic-meta-and-spacexs-ai-unit-to-freeze-frontier-ai-development/"
+        }
+      ],
+      "edition": "2026-11-16",
       "baseline": false
     }
   ]
