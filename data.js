@@ -211,7 +211,7 @@ window.AIWATCH = {
       "state": "GPT-6.2 Astra (flagship), GPT-6.2 Sol (workhorse)",
       "since": "2026-11-17",
       "open": "Closed",
-      "note": "For Plus, Pro, Enterprise and Edu accounts. Reported API prices per million tokens: Astra 8 and 40 dollars, Sol 2 and 10",
+      "note": "For Plus, Pro, Enterprise and Edu accounts. API per million tokens: Astra 8 and 40 dollars, Sol 2 and 10. Astra is second on the Artificial Analysis index, behind Fable 5.2",
       "item": "261117-openai-1",
       "changed": "2026-11-19"
     },
@@ -221,7 +221,7 @@ window.AIWATCH = {
       "state": "Gemini 4 Carbon (flagship), Gemini 4 Neon (mid-range), Gemini 4 Hydrogen (everyday)",
       "since": "2026-11-10",
       "open": "Closed",
-      "note": "Neon added 18 Nov for AI Pro and the API. Hydrogen is the model of the free tier. Carbon's introductory API price ends 30 Nov",
+      "note": "Neon added 18 Nov for AI Pro, Ultra and the API; it replaces Argon in the app. Hydrogen is the model of the free tier. Carbon's API price doubles after 30 Nov",
       "item": "261110-google-1",
       "changed": "2026-11-19"
     },
@@ -251,7 +251,7 @@ window.AIWATCH = {
       "state": "Qwen4-Max",
       "since": "2026-11-16",
       "open": "Flagship is cloud only, no weights. Older Qwen models are partly open",
-      "note": "General release 16 Nov, reported at 1.50 and 4.50 dollars per million tokens",
+      "note": "General release 16 Nov at 1.50 and 4.50 dollars per million tokens. Smaller Qwen4 models promised as open source, no date",
       "item": "261116-alibaba-1",
       "changed": "2026-11-19"
     },
@@ -448,26 +448,26 @@ window.AIWATCH = {
       "number": 4,
       "label": "Edition 4: new models for those who pay",
       "headline": "GPT-6.2 and Gemini 4 Neon arrive for paying users; free Gemini gains an agent, free DeepSeek a daily cap",
-      "lede": "OpenAI released GPT-6.2 Astra and Sol on 17 November for paying ChatGPT users, and Google followed a day later with Gemini 4 Neon, also paid. The free tier moved in other ways: Google's agent mode, Gemini Tasks, became free in six countries, and users of DeepSeek's free chat report new daily caps. Alibaba took Qwen4-Max out of preview, and Anthropic priced the largest share offer on record on the same day that 92 signatories published a statement disputing its safety claims. Searches found no change in MIT's rules, no new EU or CRUE document, and no new essay from Ethan Mollick, who did post a first verdict on GPT-6.2. A caution on method, as on Monday: this edition was compiled from search results alone. No source page was opened during the run, so no item is marked primary, and the figures should be checked through the links before anyone relies on them.",
+      "lede": "OpenAI released GPT-6.2 Astra and Sol on 17 November for paying ChatGPT users, and Google followed a day later with Gemini 4 Neon, also paid. The free tier moved in other ways: Google's agent mode, Gemini Tasks, became free in six countries, none of them in Europe, and users of DeepSeek's free chat met new limits. Alibaba took Qwen4-Max out of preview, and Anthropic priced a record share offer on the day that a statement signed by about 90 people called it unsafe. For teachers the most useful item is a survey of 5,034 undergraduates: about 8 in 10 use AI routinely and a quarter have changed how they write to avoid a false flag from a detector. Searches found no change in MIT's rules, no new EU or CRUE document, and no new essay from Ethan Mollick, who did post a first verdict on GPT-6.2. A note on method: this edition was first published from search results alone and was revised later the same morning after the sources were read. 23 pages were opened and 4 could not be; each item's confidence mark says what it rests on.",
       "takeaways": [
         {
           "title": "This week's new models are for those who pay",
-          "text": "GPT-6.2 Astra and Sol go to Plus, Pro, Enterprise and Edu accounts, and Gemini 4 Neon to AI Pro subscribers. Nothing seen in this run says that a free tier received a new model. If your university has ChatGPT Edu, your students are among those who did."
+          "text": "GPT-6.2 Astra and Sol go to Plus, Pro, Enterprise and Edu accounts, and Gemini 4 Neon to Google AI Pro and Ultra subscribers. Neither announcement mentions free accounts. A university with ChatGPT Edu gets the new models once its administrator switches them on."
         },
         {
           "title": "The free tier is changing in what it can do, not in which model it runs",
-          "text": "Google's agent mode, Gemini Tasks, is reported to be free in six countries, while users of DeepSeek's free chat report daily caps and shorter inputs. What a student can do without paying now depends on the country and on the week."
+          "text": "Gemini Tasks, an agent that carries out multi-step jobs, is now free in the United States, Japan, Korea, Canada, Australia and India, and not yet in Europe. DeepSeek's free chat has gained an input cap, a daily quota and a one-week limit on resuming conversations. What a student can do without paying depends on the country and on the week."
         },
         {
-          "title": "Self-improving AI has moved into the safety documents",
-          "text": "OpenAI is reported to rate GPT-6.2 Astra as its first deployed model at the High threshold for self-improvement, and a statement signed by 92 people calls Anthropic's work in the same direction reckless. Both are claims to read at the source, and both are usable in a class on AI policy."
+          "title": "Students use AI routinely, and one in four writes for the detector",
+          "text": "In Inside Higher Ed's survey about 8 in 10 undergraduates use AI routinely, 30% rely less on professors or tutoring, and 25% have changed how they write to avoid being wrongly flagged. Their first two requests are that AI should serve learning and that its use should be transparent, on the teacher's side as well."
         }
       ],
       "classroom": [
-        "If your university has ChatGPT Edu, your students have GPT-6.2 from this week, by OpenAI's own account. Run one assignment through it before you set that assignment again. Early testers describe it as strong on large projects and awkward on ordinary requests.",
-        "Find out whether Gemini Tasks is free in your country. If it is, try it on one multi-step task from your course, such as collecting sources and filling in a template, to see what a student can now delegate at no cost.",
-        "Do not build an activity on a single free service. Users report that DeepSeek's free chat now has daily caps and an input limit, a week after the Microsoft outage made the same point in another way.",
-        "For Spanish-speaking students, the explainer of 18 November on declaring AI use is a candidate handout. Read it against your own university's rules before you share it."
+        "If your university has ChatGPT Edu, ask the administrator when GPT-6.2 will be switched on, and run one assignment through it before you set that assignment again. Early testers describe Astra as strong on large projects and awkward to steer.",
+        "A quarter of the undergraduates in Inside Higher Ed's survey say they write differently to avoid a false flag from an AI detector. If your course or your university still uses one, state in writing what a flag can and cannot lead to. UNED's guide says that a detector's report cannot justify an accusation of fraud.",
+        "For a declaration of AI use, UNED's annex is a ready model: the tool and its version, the key prompts, the results that were used and what the student changed. The Spanish guide of 18 November links to it.",
+        "Do not build an activity on a single free service. DeepSeek's free chat now has an input cap and a daily quota, a week after the Microsoft outage made the same point in another way."
       ]
     }
   ],
@@ -1713,23 +1713,23 @@ window.AIWATCH = {
       "actor": "openai",
       "kind": "release",
       "mag": 4,
-      "title": "GPT-6.2 Astra and Sol released for paying ChatGPT users, with lower API prices",
-      "summary": "OpenAI released GPT-6.2 Astra and GPT-6.2 Sol on 17 November. Its launch post on X says that both are available in ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu users; free accounts are not mentioned. Trade coverage gives API prices of 8 and 40 dollars per million input and output tokens for Astra, a cut of 20%, and 2 and 10 dollars for Sol, and Quartz reports that OpenAI scrapped an earlier version before this release. The Artificial Analysis index is reported to place Astra second, behind Claude Fable 5.2 and two points ahead of Gemini 4 Carbon, and the first reviews are mixed, with several testers calling it hard to work with.",
-      "why": "Students on ChatGPT Edu or a paid plan have two new models from this week, so retest any assignment you had checked against GPT-6 Astra or GPT-6.1 Sol. Nothing in the coverage seen says that the free tier changed.",
-      "confidence": "reported",
-      "verify": "OpenAI's announcement for the plans, the limits and the prices, and Simon Willison's notes for an independent first look. Only titles and the text of one post were seen in this run.",
+      "title": "GPT-6.2 Astra and Sol released for paying ChatGPT users, with a lower price for Astra",
+      "summary": "OpenAI released GPT-6.2 Astra, its new frontier model, and GPT-6.2 Sol, its everyday model, on 17 November. The announcement gives both to Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex, in Enterprise and Edu once the workspace administrator enables them, and says nothing about free accounts; in the API Astra costs 8 dollars per million input tokens and 40 per million output tokens, 20% less than GPT-6 Astra, and Sol stays at 2 and 10 dollars. On the independent Artificial Analysis index, as OfficeChai reports it, Claude Fable 5.2 scores 65, Astra 62, Gemini 4 Carbon 60 and Sol 57, and Astra costs about 4 dollars per task against about 27 for Fable at its top setting. Simon Willison's first verdict is mixed: neither model did well on his own test, and he relays testers' complaints about how Astra communicates during long tasks. Quartz's headline says that an earlier version was scrapped; that article could not be opened.",
+      "why": "If your university has ChatGPT Edu, the models reach your students when the administrator enables them, so ask when that will be and retest your assignments then. The independent scores put Astra just behind Fable 5.2 at a fraction of the cost per task, which matters to anyone who pays for API use.",
+      "confidence": "primary",
+      "verify": "OpenAI's announcement gives no usage limits beyond the plan's own, no context window and no retirement dates for the older models. The Quartz article on the scrapped version was not read.",
       "sources": [
         {
           "label": "OpenAI: Introducing GPT-6.2 Astra and Sol",
           "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
         },
         {
-          "label": "OpenAI on X: who gets the models",
-          "url": "https://x.com/OpenAI/status/2122750135608528984"
-        },
-        {
           "label": "Simon Willison, 17 Nov 2026",
           "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+        },
+        {
+          "label": "OfficeChai on the Artificial Analysis index",
+          "url": "https://officechai.com/ai/gpt-6-2-astra-artificial-analysis-intelligence-index/"
         },
         {
           "label": "9to5Mac, 17 Nov 2026",
@@ -1740,20 +1740,28 @@ window.AIWATCH = {
           "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/"
         },
         {
-          "label": "Quartz on the scrapped version",
+          "label": "Quartz on the scrapped version (not read)",
           "url": "https://qz.com/openai-gpt-6-2-astra-release-scrapped-version-111726"
-        },
+        }
+      ],
+      "edition": "2026-11-19",
+      "baseline": false
+    },
+    {
+      "id": "261117-universities-1",
+      "date": "2026-11-17",
+      "actor": "universities",
+      "kind": "research",
+      "mag": 3,
+      "title": "Survey: 8 in 10 undergraduates use AI routinely; 25% write to avoid detector flags",
+      "summary": "Inside Higher Ed published on 17 November the main results of its Student Voice survey, run in October with 5,034 undergraduates at 310 mostly public two-year and four-year institutions. About 8 in 10 use generative or agentic AI routinely: 34% say they complete coursework and study more efficiently, 33% feel more confident with difficult concepts, 30% rely less on professors or tutoring, and 16% say they rely on AI too much. A quarter say they have changed how they write to avoid being wrongly flagged by an AI detector. Asked what responsible use requires, 65% chose learning and not just getting the work done, and 60% chose transparency about when and how AI is used; the article also reports a student petition at Eastern Illinois University asking professors to disclose their own use.",
+      "why": "Three numbers bear on a course. Students lean less on office hours, which MIT's report also found. One in four adapts their writing to a detector and not to a reader. And most want from teachers the transparency that teachers ask of them. The sample is from US institutions, as far as the part of the article that was read shows.",
+      "confidence": "primary",
+      "verify": "The first part of the article was read word for word, including every figure cited here; the rest was read in summary. No separate report was linked.",
+      "sources": [
         {
-          "label": "Data Studios on API prices",
-          "url": "https://www.datastudios.org/post/openai-gpt-6-2-astra-sol-launch-api-pricing-chatgpt-codex"
-        },
-        {
-          "label": "OfficeChai on the Artificial Analysis index",
-          "url": "https://officechai.com/ai/gpt-6-2-astra-artificial-analysis-intelligence-index/"
-        },
-        {
-          "label": "Latent Space on the mixed reviews",
-          "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/"
+          "label": "Inside Higher Ed, 17 Nov 2026",
+          "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/11/17/ai-changing-college-old-challenges-persist"
         }
       ],
       "edition": "2026-11-19",
@@ -1765,12 +1773,16 @@ window.AIWATCH = {
       "actor": "google",
       "kind": "release",
       "mag": 3,
-      "title": "Gemini 4 Neon: a mid-range model for AI Pro subscribers and the API",
-      "summary": "Google launched Gemini 4 Neon on 18 November, 9to5Google reports; one outlet counts it as Google's fourth model in a month. Headlines describe quality close to Carbon at the speed of the Flash models, available to AI Pro subscribers in the Gemini app, in the Antigravity coding tool and through the API. The reported API price is 3 dollars per million input tokens and 15 per million output tokens, which is twice the price of Hydrogen and, until Carbon's introductory price ends on 30 November, more than Carbon itself. Digital Trends relays Google's claim that it keeps up with Claude Opus 5.5 and GPT-6.2 Sol for less; no independent score was found.",
-      "why": "It is a paid model, so the free tier that most students use stays on Hydrogen. Anyone who pays for API use in research or in a teaching tool should compare prices again after 30 November before committing a budget.",
-      "confidence": "reported",
-      "verify": "Google's announcement and its price page for the date, the plans and the prices. No Google page for Neon appeared in the searches of this run.",
+      "title": "Gemini 4 Neon: a mid-range model for paying subscribers and the API",
+      "summary": "Google released Gemini 4 Neon on 18 November as the model between Carbon, for the hardest long projects, and Hydrogen, for fast everyday work. The announcement gives it to Google AI Pro and Ultra subscribers in the Gemini app and in the Antigravity coding tool, and to paying API users at 3 dollars per million input tokens and 15 per million output tokens with a 1M-token context; free accounts are not mentioned. 9to5Google adds that Neon replaces Argon in the app's model menu, and that Carbon's API price doubles from 2 and 10 dollars to 4 and 20 after 30 November, which will leave Neon 25% cheaper than Carbon. Google reports a score of 61 on the Artificial Analysis index, third overall, and a cost per task 32% below Carbon's; these are the vendor's figures.",
+      "why": "It is a paid model, so the free tier that most students use stays on Hydrogen. Anyone who pays for API use in research or in a teaching tool should note that Carbon doubles in price after 30 November and compare again before committing a budget.",
+      "confidence": "primary",
+      "verify": "Google's post does not say whether Neon replaces Argon or what the usage limits are. The benchmark positions are Google's account of third-party leaderboards.",
       "sources": [
+        {
+          "label": "Google: Introducing Gemini 4 Neon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+        },
         {
           "label": "9to5Google, 18 Nov 2026",
           "url": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/"
@@ -1782,18 +1794,6 @@ window.AIWATCH = {
         {
           "label": "TestingCatalog on where it is available",
           "url": "https://www.testingcatalog.com/google-launches-gemini-4-neon-on-gemini-antigravity-and-apis/"
-        },
-        {
-          "label": "Rolling Out, 18 Nov 2026",
-          "url": "https://rollingout.com/2026/11/18/google-launches-gemini-4-neon-model/"
-        },
-        {
-          "label": "Pasquale Pillitteri on the price against Hydrogen",
-          "url": "https://pasqualepillitteri.it/en/news/34696/gemini-4-neon-google-cloud-sku-twice-hydrogen-price"
-        },
-        {
-          "label": "Kingy AI on the price against Carbon",
-          "url": "https://kingy.ai/blog/gemini-4-neon/"
         }
       ],
       "edition": "2026-11-19",
@@ -1805,27 +1805,19 @@ window.AIWATCH = {
       "actor": "google",
       "kind": "product",
       "mag": 3,
-      "title": "Gemini Tasks, Google's agent mode, becomes free in six countries",
-      "summary": "Google made Gemini Tasks, the mode in which Gemini carries out multi-step jobs for the user, free in six countries on 17 November, 9to5Google reports. One headline says that it previously required the 19.99-dollar plan. Reports add that the phone calls and payments it can make are limited to the United States, and that it can now send texts and emails. Which six countries are included was not established in this run, so check whether yours is one of them.",
-      "why": "An agent that completes multi-step tasks is moving from paid plans to free accounts. Where it is available, any student can hand over a task that consists of gathering, filling in and sending, not only those who pay.",
-      "confidence": "reported",
-      "verify": "Google's announcement for the list of countries and for what the free version can do.",
+      "title": "Gemini Tasks, Google's agent mode, becomes free in six countries, none in Europe",
+      "summary": "Google made Gemini Tasks free on 17 November in the United States, Japan, Korea, Canada, Australia and India. Tasks is the mode, chosen with a Chat or Task switch, in which Gemini carries out multi-step jobs such as booking appointments, paying bills or ordering shopping, using the Gmail, Calendar and payment methods that the user has connected; it used to require an AI Pro subscription and it runs on Gemini 4 Hydrogen. Google says that each task runs in an isolated virtual machine and that Gemini asks for confirmation before it buys anything. Handing over tasks by text message or by email starts in the United States only, and the post gives no limits for free use and names no further countries.",
+      "why": "No European country is on the list, so students in Spain do not have it yet. It shows the direction all the same: an agent that completes multi-step tasks is moving from paid plans to free accounts, and a task that consists of gathering, filling in and sending will be something any student can delegate once it arrives.",
+      "confidence": "primary",
+      "verify": "Google's post for any later extension to other countries, and for the limits of free use, which it does not state.",
       "sources": [
+        {
+          "label": "Google: Tasks in Gemini, free, with new features",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+        },
         {
           "label": "9to5Google, 17 Nov 2026",
           "url": "https://9to5google.com/2026/11/17/gemini-tasks-free/"
-        },
-        {
-          "label": "PPC Land on the earlier price",
-          "url": "https://ppc.land/geminis-19-99-task-mode-goes-free-in-6-countries/"
-        },
-        {
-          "label": "Phandroid, 18 Nov 2026",
-          "url": "https://phandroid.com/2026/11/18/geminis-ai-agent-no-longer-needs-a-paid-subscription-in-six-countries/"
-        },
-        {
-          "label": "Pasquale Pillitteri on the US-only functions",
-          "url": "https://pasqualepillitteri.it/en/news/34466/gemini-tasks-arrives-free-in-six-countries-calls"
         },
         {
           "label": "Chrome Geek on texts and emails",
@@ -1841,35 +1833,27 @@ window.AIWATCH = {
       "actor": "deepseek",
       "kind": "product",
       "mag": 3,
-      "title": "DeepSeek's free chat gets daily caps and shorter inputs, users report",
-      "summary": "Users of DeepSeek's free app and website report new daily caps and a limit of 40,000 characters per input, according to Sixth Tone and to TechNode, the latter on 16 November. TechNode says that the service cites capacity constraints, while Pandaily noted that DeepSeek had not confirmed the limits; other reports link them to China's shortage of AI chips. Separately, DeepSeek is reported to have opened its app's tools, including web search, file reading and voice, to developers through its API this month. The dates of both changes were not pinned down in this run.",
-      "why": "Many students use DeepSeek's free chat. Long documents and long sessions may now hit a limit, which is one more reason not to design an activity around a single free service.",
+      "title": "DeepSeek's free chat gets an input cap, a daily quota and a one-week limit on old chats",
+      "summary": "Users of DeepSeek's free chatbot began to meet new limits on 15 or 16 November; TechNode and Sixth Tone differ by a day. Prompts are capped at about 40,000 Chinese characters, a daily quota ends with a message that cites server overload, with no number given, and conversations left inactive for more than a week can no longer be resumed. Sixth Tone calls it the first restriction on free users since the launch in January 2025, and reports that by 18 November DeepSeek had given no reason and that it has no paid plan for the chat. Separately, DeepSeek announced on 13 November that the tools behind its app, among them web search, link and file reading and speech services, are available to developers through its API.",
+      "why": "Many students use DeepSeek's free chat. Long documents and long sessions may now hit a limit, which is one more reason not to design an activity around a single free service. Neither report says whether the limits apply outside China.",
       "confidence": "reported",
-      "verify": "DeepSeek's own notices for the exact limits, and its price page for the API tools.",
+      "verify": "DeepSeek has published no notice of the limits, so the figures come from users' reports relayed by the press.",
       "sources": [
         {
           "label": "TechNode, 16 Nov 2026",
           "url": "https://technode.com/2026/11/16/deepseek-users-report-chat-limits-as-the-service-cites-capacity-constraints/"
         },
         {
-          "label": "Sixth Tone",
+          "label": "Sixth Tone, 18 Nov 2026",
           "url": "https://www.sixthtone.com/news/1019284"
         },
         {
-          "label": "Pandaily on X: limits unconfirmed",
-          "url": "https://x.com/thePandaily/status/2122279329036222717"
-        },
-        {
-          "label": "investingLive on the chip shortage",
-          "url": "https://investinglive.com/stocks/ai-daily-quotas-come-to-deepseek-a-visible-sign-of-china-s-ai-chip-crunch/"
-        },
-        {
-          "label": "Startup Fortune on the API tools",
+          "label": "Startup Fortune on the API tools, 13 Nov 2026",
           "url": "https://startupfortune.com/deepseek-turns-its-whole-app-into-an-api-with-search-file-reading-voice-and-safety-built-in/"
         },
         {
-          "label": "DeepSeek: models and pricing",
-          "url": "https://api-docs.deepseek.com/quick_start/pricing/"
+          "label": "Pandaily on X",
+          "url": "https://x.com/thePandaily/status/2122279329036222717"
         }
       ],
       "edition": "2026-11-19",
@@ -1882,34 +1866,62 @@ window.AIWATCH = {
       "kind": "release",
       "mag": 3,
       "title": "Qwen4-Max leaves preview: cloud only, no weights, low price",
-      "summary": "Alibaba made Qwen4-Max generally available on 16 November, nine days before its preview was due to end, according to trackers and trade reports. They describe a model of 2.4 trillion parameters with a 1M-token context, priced at a reported 1.50 dollars per million input tokens and 4.50 per million output tokens, and still without downloadable weights. Alibaba is reported to say that it cuts the cost of an average task by about 60% and tightens its guardrails against use in cyberattacks. One report mentions limits for users in the EU, which were not checked.",
-      "why": "The flagship is a paid cloud service with no weights, so groups that run Qwen models locally for teaching or research stay on the older open ones. The reported price is far below that of the US flagships.",
+      "summary": "Alibaba made Qwen4-Max generally available on 16 November, five days after opening its preview. It is a mixture-of-experts model of 2.4 trillion parameters, 71 billion of them active per token, with a 1M-token context, priced at 1.50 dollars per million input tokens and 4.50 per million output tokens in the international region. The weights stay closed and fine-tuning is not offered; Alibaba's blog says that smaller models of the family will be open-sourced, with no date. Alibaba reports that the average cost of a task on its own benchmark fell 62% against Qwen3.8-Max, from 4.43 to 1.67 dollars, while the independent Artificial Analysis index gives Qwen4-Max 43, below Kimi K3.1 Pro at 46 and far below the US flagships.",
+      "why": "Alibaba's flagship is cheap, but on independent scores it is not close to the frontier, and it cannot be run locally. Groups that run Qwen models on their own machines stay on the older open ones until the smaller Qwen4 models appear.",
       "confidence": "reported",
-      "verify": "Alibaba Cloud's Model Studio pages for the release date, the price and any regional limits.",
+      "verify": "Alibaba's own blog and price page were not read; the figures come from ModelFit and Digital Trends, which agree with each other.",
       "sources": [
-        {
-          "label": "Digital Trends",
-          "url": "https://www.digitaltrends.com/computing/qwen-4-max-aliababas-latest-flagship-ai-model-announced/"
-        },
         {
           "label": "ModelFit: out of preview, still no weights",
           "url": "https://modelfit.io/blog/qwen4-max-general-availability-no-weights/"
         },
         {
+          "label": "Digital Trends, 16 Nov 2026",
+          "url": "https://www.digitaltrends.com/computing/qwen-4-max-aliababas-latest-flagship-ai-model-announced/"
+        },
+        {
+          "label": "OfficeChai: Artificial Analysis index table",
+          "url": "https://officechai.com/ai/gpt-6-2-astra-artificial-analysis-intelligence-index/"
+        },
+        {
           "label": "ArtificialWatch on the date and the price",
           "url": "https://artificialwatch.com/model-qwen-4-0-max.html"
+        }
+      ],
+      "edition": "2026-11-19",
+      "baseline": false
+    },
+    {
+      "id": "261118-spain-1",
+      "date": "2026-11-18",
+      "actor": "spain",
+      "kind": "policy",
+      "mag": 3,
+      "title": "Spanish guide sets out what CRUE, UNED, EHU and UGR ask of students who use AI",
+      "summary": "The Spanish site WWWhat's new published on 18 November a guide, with links to the documents, to what Spanish universities ask of students who use AI. CRUE has set no common rules: its document of March 2024 asks each university to write its own. UNED's guide of December 2025 allows uses such as first ideas, translation to understand a text, correction of style and formatting of references, with the supervisor's authorisation, and requires final projects to carry an annex that declares the tool and its version, the key prompts, the results used and what was changed; presenting AI text as one's own, undisclosed AI code or graphs and invented citations count as fraud. The principles of the University of the Basque Country, of September 2025, and Granada's recommendations take the same line. UNED states that a detector's report cannot justify an accusation of fraud, and the other two warn that detectors give only a probability and produce false positives.",
+      "why": "It is a summary in Spanish, with the original documents one click away, that can be passed to students and colleagues. UNED's annex is a ready model for a declaration of AI use. It reports no new CRUE document: the white paper announced in September is still awaited.",
+      "confidence": "reported",
+      "verify": "The article was read in full; the university documents it links to were not opened. Check them, and your own university's rules, before you share it.",
+      "sources": [
+        {
+          "label": "WWWhat's new, 18 Nov 2026",
+          "url": "https://wwwhatsnew.com/2026/11/18/ia-universidad-sin-trampas-guias-crue-declarar-detectores/"
         },
         {
-          "label": "Ground News on task cost and guardrails",
-          "url": "https://ground.news/article/alibaba-unveils-new-flagship-ai-model-with-safety-upgrades_865a2c"
+          "label": "UNED: guide to academic integrity with AI",
+          "url": "https://www.uned.es/universidad/dam/inicio/unidad/cpri/Portal-antiplagio/Guia-de-integridad-en-I.A.-generativa/Gu%C3%ADa-para-asegurar-integridad-acad%C3%A9mica-con-IA.pdf"
         },
         {
-          "label": "CASRAI on the 1M-token context",
-          "url": "https://casrai.org/news/alibaba-qwen4-max-general-release-million-token-context-2026"
+          "label": "EHU: principles and recommendations",
+          "url": "https://www.ehu.eus/documents/d/bilboko-hezkuntza-fakultatea/principio-y-recomendaciones-uso-ia_ehu"
         },
         {
-          "label": "DataNorth on cost per task and EU limits",
-          "url": "https://datanorth.ai/news/qwen4-max-api-cost-per-task"
+          "label": "UGR: summary of recommendations",
+          "url": "https://ceprud.ugr.es/sites/centros/ceprud/public/ficheros/Resumen_Recomendaciones_IA_en_UGR.pdf"
+        },
+        {
+          "label": "CRUE: generative AI in university teaching, March 2024",
+          "url": "https://www.crue.org/wp-content/uploads/2024/03/Crue-Digitalizacion_IA-Generativa.pdf"
         }
       ],
       "edition": "2026-11-19",
@@ -1921,31 +1933,23 @@ window.AIWATCH = {
       "actor": "anthropic",
       "kind": "business",
       "mag": 3,
-      "title": "Anthropic prices its share offer at 83 dollars and raises a record 81.3 billion",
-      "summary": "Anthropic priced its initial public offering on 18 November at 83 dollars a share, above the range of 70 to 78 dollars it had set, CNBC and others report. It sold 980 million shares and raised about 81.3 billion dollars, the largest offering on record and more than SpaceX raised. One outlet puts the resulting valuation at about 1.5 trillion dollars. The shares are due to start trading on Nasdaq under the ticker ANT on Thursday 19 November, after this edition was written.",
+      "title": "Anthropic prices its share offer at 83 dollars and raises 81.3 billion",
+      "summary": "Anthropic priced its initial public offering late on 18 November at 83 dollars a share, above the range of 70 to 78 dollars it had set, Al Jazeera reports. The company and its seven co-founders sold 980 million shares, more than the 825 million first offered, and raised 81.3 billion dollars; a private placement of 26 billion takes the total to 107.3 billion. That passes SpaceX's 75 billion-dollar debut in June, although SpaceX's total reached 85.7 billion once its overallotment option was counted, so whether this is the record depends on the measure. At the offer price Anthropic is valued at roughly 1.5 trillion dollars, and the shares start trading on Nasdaq as ANT on Thursday 19 November, after this edition was written.",
       "why": "An update to the items of 11 and 16 November. From now on the finances of a frontier lab are public, quarter by quarter, which is material for economics and business courses. The editor of this page is an Anthropic model, so check the figures at the source.",
       "confidence": "reported",
-      "verify": "Anthropic's final prospectus on the US regulator's EDGAR site for the price, the number of shares and the proceeds.",
+      "verify": "Anthropic's final prospectus on the US regulator's EDGAR site. It was not read, and CNBC's article could not be opened; the figures here are Al Jazeera's.",
       "sources": [
-        {
-          "label": "CNBC, 18 Nov 2026",
-          "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
-        },
         {
           "label": "Al Jazeera, 19 Nov 2026",
           "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time"
         },
         {
+          "label": "CNBC, 18 Nov 2026 (not read)",
+          "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+        },
+        {
           "label": "investingLive on the 980 million shares",
           "url": "https://investinglive.com/stocks/anthropic-confirms-83-ipo-price-on-980-million-shares-in-an-81-billion-deal/"
-        },
-        {
-          "label": "CNN, 18 Nov 2026",
-          "url": "https://www.cnn.com/2026/11/18/investing/anthropic-ipo-price-stock"
-        },
-        {
-          "label": "The Federal on the valuation",
-          "url": "https://thefederal.com/category/business/anthropic-hits-usd-15-trillion-valuation-in-biggest-wall-street-ipo-ever-263381"
         },
         {
           "label": "Anthropic's amended S-1 on EDGAR",
@@ -1961,27 +1965,27 @@ window.AIWATCH = {
       "actor": "anthropic",
       "kind": "policy",
       "mag": 2,
-      "title": "Statement signed by 92 people disputes Anthropic's safety claims before its listing",
-      "summary": "On 18 November the Center for AI Safety and about 90 other signatories, described as scientists, legal scholars and technology figures, published what they call the MisAnthropic Statement; two reports count 92 signatures. According to Techmeme's summary, it challenges the company's safety branding and calls its effort to build AI that improves itself reckless, and The National reports that the signatories tie their warning to the share offer. Gizmodo describes it as the company's critics uniting ahead of the listing. No reply from Anthropic was found in this run.",
+      "title": "Open statement signed by about 90 people says Anthropic is 'not a safe AI company'",
+      "summary": "A statement reported on 18 November and published at misanthropicstatement.com, with contact addresses at the Center for AI Safety, argues that Anthropic uses a reputation for safety to advance commercial and political aims. It says that the company warns that AI which improves itself could concentrate power and escape human control and yet races to build it, that it has quietly weakened its safety pledges, and that it has lobbied for regulation that suits itself. The page lists about 89 names, among them Steven Pinker, Judea Pearl, Max Tegmark, Laurence Tribe, Douglas Hofstadter and two Nobel laureates; press counts run from at least 80 to 92. Gizmodo notes that the signatories range from safety advocates to the founder of the accelerationist movement and include a co-founder of the rival lab xAI, and The National reports that Anthropic did not immediately respond.",
       "why": "The editor of this page is an Anthropic model, so read the statement itself and not this summary. For teaching, it is a current primary document in the argument over whether a company can sell itself on safety while racing to build more capable systems.",
-      "confidence": "reported",
-      "verify": "The statement itself, through the Center for AI Safety, for the signatories and the exact claims, and Anthropic's response if there is one.",
+      "confidence": "primary",
+      "verify": "The statement page gives no date, no organiser and no total of signatures, and makes no specific demand beyond rejecting what it describes. Look for Anthropic's response.",
       "sources": [
+        {
+          "label": "The statement",
+          "url": "https://misanthropicstatement.com/"
+        },
         {
           "label": "The National, 18 Nov 2026",
           "url": "https://www.thenationalnews.com/future/technology/2026/11/18/anthropic-ipo-warning-misanthropic/"
         },
         {
-          "label": "Techmeme summary, 18 Nov 2026",
-          "url": "https://www.techmeme.com/261118/p30"
-        },
-        {
-          "label": "Gizmodo",
+          "label": "Gizmodo, 18 Nov 2026",
           "url": "https://gizmodo.com/the-accelerationists-are-trying-to-stop-anthropic-2000841831"
         },
         {
-          "label": "Tao Media on the 92 signatures",
-          "url": "https://www.tao.media/anthropic-declared-unsafe-by-92-ai-leaders-in-misanthropic-statement/"
+          "label": "Techmeme summary, 18 Nov 2026",
+          "url": "https://www.techmeme.com/261118/p30"
         }
       ],
       "edition": "2026-11-19",
@@ -1993,22 +1997,22 @@ window.AIWATCH = {
       "actor": "openai",
       "kind": "policy",
       "mag": 2,
-      "title": "OpenAI rates GPT-6.2 Astra High for self-improvement, a first for a deployed model",
-      "summary": "Coverage of the GPT-6.2 system card says that Astra is the first model OpenAI has deployed that reaches the High threshold for AI self-improvement in the company's own risk framework. One summary's headline cites a score of 59% of the best human result; what that test measures was not checked. Which safeguards the rating triggers was not established in this run.",
-      "why": "A company is grading its own model here, so treat it as a disclosure and not as an independent measurement. It still matters for courses on AI policy: the labs now state in their own safety documents that their models can speed up AI research, which is what METR reported about Anthropic earlier this month.",
-      "confidence": "reported",
-      "verify": "The GPT-6.2 system card on OpenAI's Deployment Safety Hub: the definition of the threshold, the test results and the safeguards.",
+      "title": "OpenAI rates GPT-6.2 Astra High for AI self-improvement in its own risk framework",
+      "summary": "OpenAI's system card of 17 November places GPT-6.2 Astra at the High threshold for AI self-improvement in its Preparedness Framework, which press reports call a first for a model it has deployed, and says that Sol falls below it. The launch post describes High as the equivalent of giving every OpenAI researcher an additional, highly capable research engineer, measured against 2024. On one of the tests behind the rating, speeding up the training of a small model, Astra saved about 43% of the training time against 72% for the best human solution, which appears to be the origin of the figure of 59% in press headlines. The card also rates both models Critical for cybersecurity and High for biological and chemical risk, and lists safeguards that include monitoring for misalignment and a system that can halt a model's output.",
+      "why": "A company is grading its own model here, so treat it as a disclosure and not as an independent measurement. It still matters for courses on AI policy: the labs now state in their own safety documents that their models speed up AI research, which is what METR reported about Anthropic earlier this month.",
+      "confidence": "primary",
+      "verify": "The card is very long: its first part was read word for word and the test results in summary. It does not set out which safeguard answers to which rating.",
       "sources": [
         {
           "label": "OpenAI: GPT-6.2 system card",
           "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol"
         },
         {
-          "label": "Technology.org, 18 Nov 2026",
-          "url": "https://www.technology.org/2026/11/18/openai-gpt-6-2-astra-sol-high-self-improvement-pricing/"
+          "label": "OpenAI: Introducing GPT-6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
         },
         {
-          "label": "Crypto Briefing",
+          "label": "Crypto Briefing on the first deployed model",
           "url": "https://cryptobriefing.com/openai-gpt-6-2-astra-self-improvement-threshold/"
         },
         {
@@ -2027,7 +2031,7 @@ window.AIWATCH = {
       "mag": 2,
       "title": "Mollick on GPT-6.2 Astra: uneven, harder to steer, strong on ambitious projects",
       "summary": "Ethan Mollick, who used the model before launch, wrote on X on 17 November that he found GPT-6.2 Astra 'very uneven' and harder to steer than other models. He added that when he gave it an ambitious project, building a space elevator ride from scratch with Blender and Unity, it delivered well. Searches found no new essay on One Useful Thing since 'Fable 5.2 and Jagged AGI' of 9 November.",
-      "why": "It agrees with the mixed reviews from other testers and with his own 'jagged' picture of these models: very good at large, open tasks and awkward at ordinary ones. The newest model is not always the easiest one for students to use.",
+      "why": "It agrees with Simon Willison's notes and with his own 'jagged' picture of these models: very good at large, open tasks and awkward at ordinary ones. The newest model is not always the easiest one for students to use.",
       "confidence": "reported",
       "verify": "The post itself. Its text was seen in a search result; the page was not opened.",
       "sources": [
@@ -2036,12 +2040,63 @@ window.AIWATCH = {
           "url": "https://x.com/emollick/status/2122755693191287009"
         },
         {
-          "label": "AGI Hunt summary",
-          "url": "https://agihunt.info/en/p/1a1eac001a9233ae37851a30424"
+          "label": "Simon Willison, 17 Nov 2026",
+          "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
         },
         {
           "label": "Implicator on other early testers",
           "url": "https://www.implicator.ai/gpt-6-2-astra-early-testers-theo-letter/"
+        }
+      ],
+      "edition": "2026-11-19",
+      "baseline": false
+    },
+    {
+      "id": "261117-mit-1",
+      "date": "2026-11-17",
+      "actor": "mit",
+      "kind": "research",
+      "mag": 2,
+      "title": "MIT funds humanities-led projects on AI and society; its AI rules are unchanged",
+      "summary": "MIT News reported on 17 November that about a third of the 67 projects funded by the MIT Human Insight Collaborative, which has awarded 5.5 million dollars across 31 units, deal with AI, society and humanity. The examples include a study of language models and the 2026 midterm elections, work on AI and cognition, a new course on humane user experience design, and a review of writing assignments that involve generative AI, with workshops for faculty. A series of events will pair humanists with colleagues from other fields, starting with mathematics. The article announces no new rule or requirement.",
+      "why": "MIT's row on the board stands: no Institute-wide rule, and a policy for each subject. What is new is money for the humanities to study AI in teaching, including a review of AI writing assignments whose results will be worth reading when they appear.",
+      "confidence": "primary",
+      "sources": [
+        {
+          "label": "MIT News, 17 Nov 2026",
+          "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117"
+        }
+      ],
+      "edition": "2026-11-19",
+      "baseline": false
+    },
+    {
+      "id": "261103-universities-6",
+      "date": "2026-11-03",
+      "actor": "universities",
+      "kind": "product",
+      "mag": 2,
+      "title": "Oxford University Press pilots a search of its scholarship from inside ChatGPT Edu",
+      "summary": "Oxford University Press is running a three-month pilot, from October to December, that lets users of ChatGPT Edu search its licensed scholarly content from inside the assistant, Cherwell reported on 15 November. Answers draw on peer-reviewed books, journals and reference works and link back to Oxford Academic, through a connector built by Silverchair on the MCP standard. At Oxford the pilot is limited to 30 students who keep diaries of their use, while the Wharton School and Harvard have opened it to all students and staff. Cherwell also cites the press's own survey, in which 64% of researchers say that AI helps them and 20% trust what it produces. This is a catch-up item: infoDOCKET dates the announcement to 3 November.",
+      "why": "If it works, a student's AI assistant could search the titles that a library has licensed and cite them, where today it draws mostly on the open web. Ask your own library whether publishers have offered the same.",
+      "confidence": "reported",
+      "verify": "The press release from Oxford University Press for which content is included and how access is controlled; it was not read.",
+      "sources": [
+        {
+          "label": "Cherwell, 15 Nov 2026",
+          "url": "https://www.cherwell.org/2026/11/15/oxord-university-press-pilot-scheme-with-chatgpt-edu/"
+        },
+        {
+          "label": "STM Publishing News: the announcement",
+          "url": "https://www.stm-publishing.com/oup-launches-new-pilot-to-connect-trusted-scholarship-with-ai-powered-research/"
+        },
+        {
+          "label": "Publishers Weekly",
+          "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/libraries/article/101680-oxford-university-press-tests-connecting-its-content-to-chatgpt-edu.html"
+        },
+        {
+          "label": "infoDOCKET, 3 Nov 2026",
+          "url": "https://www.infodocket.com/2026/11/03/company-news-oxford-university-press-launches-mcp-pilot-partners-include-harvard-library-wharton-school-and-university-of-oxford/"
         }
       ],
       "edition": "2026-11-19",
@@ -2054,18 +2109,14 @@ window.AIWATCH = {
       "kind": "watch",
       "mag": 2,
       "title": "Reuters: Chinese developers train rival models on the answers of US models",
-      "summary": "A Reuters exclusive of 17 November reports that Chinese AI developers increasingly train their own models on answers generated by US models, a technique called distillation, as US chip restrictions tighten. Summaries say that the report rests on more than 300 documents and that OpenAI's models and Alibaba's Qwen are among those named. The companies' responses were not seen in this run.",
-      "why": "It helps to explain how low-cost Chinese models stay close to the US frontier. It is also a live case for classes on intellectual property: the US labs' terms of service generally forbid this use, and the law is unsettled.",
-      "confidence": "reported",
+      "summary": "A Reuters exclusive of 17 November reports that Chinese AI developers increasingly train their own models on answers generated by US models, a technique called distillation, as US chip restrictions tighten. Summaries say that the report rests on more than 300 documents and that OpenAI's models and Alibaba's Qwen are among those named. Two pages that carry the report could not be opened, so this item rests on headlines, and the companies' responses were not seen.",
+      "why": "It would help to explain how low-cost Chinese models stay close to the US frontier. It is also a live case for classes on intellectual property: the US labs' terms of service generally forbid this use, and the law is unsettled.",
+      "confidence": "headline",
       "verify": "The Reuters article for which companies are named, what the documents show and what the companies answer.",
       "sources": [
         {
-          "label": "Reuters via Investing.com",
+          "label": "Reuters via Investing.com (not read)",
           "url": "https://www.investing.com/news/economy-news/exclusivechina-taps-us-ai-models-to-train-homegrown-rivals-as-chip-curbs-bite-5031568"
-        },
-        {
-          "label": "Technology.org, 17 Nov 2026",
-          "url": "https://www.technology.org/2026/11/17/china-distillation-us-ai-model-outputs-train-domestic-rivals/"
         },
         {
           "label": "AI Weekly on the documents and Qwen",
@@ -2074,94 +2125,6 @@ window.AIWATCH = {
         {
           "label": "MLQ summary",
           "url": "https://mlq.ai/news/chinese-companies-use-answers-from-us-ai-models-to-train-domestic-rivals-as-chip-curbs-tighten-reuters-reports/"
-        }
-      ],
-      "edition": "2026-11-19",
-      "baseline": false
-    },
-    {
-      "id": "261117-elsewhere-2",
-      "date": "2026-11-17",
-      "actor": "elsewhere",
-      "kind": "business",
-      "mag": 2,
-      "title": "Nvidia's revenue doubles to 115.8 billion dollars; board rules out Huang's return",
-      "summary": "Nvidia published its first quarterly results since Jensen Huang's resignation: revenue of 115.8 billion dollars, up 103% on a year earlier, with guidance of about 130 billion for the next quarter, according to Yahoo Finance and trade reports. The board said that it will not reinstate Huang as chief executive, and Colette Kress led the call as interim chief. CNBC's report is dated 17 November and UPI's 18 November.",
-      "why": "A follow-up to Monday's item. Demand for the chips that train and run these models is still doubling year on year. Nothing changes in the classroom.",
-      "confidence": "reported",
-      "verify": "Nvidia's results release, filed with the US regulator, for the figures and the date.",
-      "sources": [
-        {
-          "label": "Nvidia: third-quarter results on EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
-        },
-        {
-          "label": "CNBC, 17 Nov 2026",
-          "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
-        },
-        {
-          "label": "Yahoo Finance live coverage",
-          "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-to-report-q3-results-after-the-bell-with-colette-kress-to-host-first-call-as-interim-ceo-202616349.html"
-        },
-        {
-          "label": "CBS News",
-          "url": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/"
-        },
-        {
-          "label": "UPI, 18 Nov 2026",
-          "url": "https://www.upi.com/Top_News/US/2026/11/18/NVIDIA-announces-bumper-results/2411794995278/"
-        }
-      ],
-      "edition": "2026-11-19",
-      "baseline": false
-    },
-    {
-      "id": "261103-universities-6",
-      "date": "2026-11-03",
-      "actor": "universities",
-      "kind": "product",
-      "mag": 2,
-      "title": "Oxford University Press pilots a link between its scholarship and ChatGPT Edu",
-      "summary": "Oxford University Press is testing a way to make its content discoverable from AI assistants, starting with ChatGPT Edu, Publishers Weekly reports. Library Journal's infoDOCKET dated the announcement to 3 November and named Harvard Library, the Wharton School and the University of Oxford as partners, with the connection built on the MCP standard. Oxford's student paper Cherwell reported on 15 November that the pilot integrates the press's content with ChatGPT Edu. This is a catch-up item: the announcement predates the last two editions.",
-      "why": "If it works, a student's AI assistant could search the titles that a library has licensed and cite them, where today it draws mostly on the open web. Ask your own library whether publishers have offered the same.",
-      "confidence": "reported",
-      "verify": "The press release from Oxford University Press for what content is included and how access is controlled.",
-      "sources": [
-        {
-          "label": "STM Publishing News: the announcement",
-          "url": "https://www.stm-publishing.com/oup-launches-new-pilot-to-connect-trusted-scholarship-with-ai-powered-research/"
-        },
-        {
-          "label": "Publishers Weekly",
-          "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/libraries/article/101680-oxford-university-press-tests-connecting-its-content-to-chatgpt-edu.html"
-        },
-        {
-          "label": "infoDOCKET, 3 Nov 2026",
-          "url": "https://www.infodocket.com/2026/11/03/company-news-oxford-university-press-launches-mcp-pilot-partners-include-harvard-library-wharton-school-and-university-of-oxford/"
-        },
-        {
-          "label": "Cherwell, 15 Nov 2026",
-          "url": "https://www.cherwell.org/2026/11/15/oxord-university-press-pilot-scheme-with-chatgpt-edu/"
-        }
-      ],
-      "edition": "2026-11-19",
-      "baseline": false
-    },
-    {
-      "id": "261118-spain-1",
-      "date": "2026-11-18",
-      "actor": "spain",
-      "kind": "policy",
-      "mag": 2,
-      "title": "Spanish explainer gathers the AI guidance of CRUE, UNED, EHU and UGR",
-      "summary": "The Spanish technology site WWWhat's new published on 18 November a guide to using AI at university without cheating. Its headline says that it sets out what CRUE, UNED, the University of the Basque Country and the University of Granada ask of students, with the declaration of AI use at the centre, and why the result of a detector proves nothing. Only the headline was seen in this run. No new document from CRUE was found: its white paper is still expected by the end of the year.",
-      "why": "It is a summary in Spanish that could be passed to students, and its two points match the English regulator's report of last week: ask students to declare their use, and do not treat a detector as evidence. Check it against your own university's rules before you share it.",
-      "confidence": "headline",
-      "verify": "The article itself, and the guidance documents of each university that it cites.",
-      "sources": [
-        {
-          "label": "WWWhat's new, 18 Nov 2026",
-          "url": "https://wwwhatsnew.com/2026/11/18/ia-universidad-sin-trampas-guias-crue-declarar-detectores/"
         }
       ],
       "edition": "2026-11-19",
